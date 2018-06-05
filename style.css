@@ -1,0 +1,133 @@
+*{margin: 0 0 0 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    box-sizing: border-box; 
+    
+}
+
+body {background-color: white;}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+
+header img {
+    width: 100%; 
+    display: block;
+}
+nav {
+    background-color: darkcyan;
+}
+
+a.menu {
+    display: inline-block;
+    width: 20%;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: all 1s ease;  
+        
+}
+a.menu:hover {
+    background-color: crimson;
+}
+.active {
+    background-color: crimson;
+
+}
+
+nav#dane {
+    background-color: darkcyan;
+}
+
+a.menu2 {
+    display: inline-block;
+    width: 16.6%;
+    padding: 15px 29px 15px 29px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: all 1s ease;  
+        
+}
+a.menu2:hover {
+    background-color: crimson;
+}
+.active2 {
+    background-color: crimson;
+
+}
+
+article {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px 0px 20px;
+}
+
+article h1 {
+    font-size: 30px; 
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+    font-weight: bold;
+}
+
+
+article p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0 15px 0;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    bottom:0;
+    width:1000px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px 0 0 0 ;
+    background-color: dimgrey;
+    color: white;
+}
+
+#lewa { 
+    float: left; width: 49%; height: 250px;
+    border-right: 2px solid crimson;
+    text-align: center;
+}
+
+#lewa3 {
+    width: 49%; height: 250px;
+    margin-left: 20%; text-align: right;
+}
+
+#prawa {
+    float: right; width: 49%; height: 250px;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+table, th, td {
+    padding: 6px;
+}
+#tekst {
+    float: right; width: 49%; height: 250px;
+    text-align: center;
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+#tekst2 {
+    float: right; width: 49%; height: 3%;
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-weight: bold;
+}
